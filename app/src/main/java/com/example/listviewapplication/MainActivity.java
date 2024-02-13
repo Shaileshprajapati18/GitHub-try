@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), RegisterPage.class);
+                Toast.makeText(MainActivity.this, "shailesh", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
         });
