@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class RegisterPage extends AppCompatActivity {
 
-
     private EditText editTextUsername, editTextEmail, editTextPassword;
     private Button buttonRegister;
 
